@@ -1,0 +1,131 @@
+
+html, body {
+    height: 100%;
+    padding: 0;
+    background-color:rgb(204, 232, 238);  
+    color:rgb(1, 43, 44);
+    font-family: 'Hind';
+    font-size: 15px;
+}
+
+p a{
+    color:rgb(59, 140, 172);
+    text-decoration:underline;
+}
+
+main {
+    margin: 0 auto;
+    width: 700px;
+    position: relative;
+}
+
+header {
+    color:rgb(59, 140, 172);
+    text-align: center;
+    font-weight:bold;
+    font-size:20px;
+}
+
+
+footer {
+    clear:both;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+hr{
+    color:rgb(59, 140, 172);
+}
+
+h2{
+    color:rgb(59, 140, 172);
+    font-family: "Arial", serif;
+
+}
+
+/* afbeeldingen */
+
+.linker-afbeeldingen{
+    float:left;
+    width:225px;
+}
+
+img.boven {
+    margin-top:10px;
+    margin-left:10px;
+    margin-right:10px;
+    width:200px;
+
+}
+
+img.onder{
+    margin-top:10px;
+    margin-bottom:10px;
+    margin-left:10px;
+    margin-right:10px;
+    width:200px;
+
+}
+
+.rechter-afbeeldingen{
+    float:right;
+    width:225px;
+}
+
+img.duiken{
+    margin-top:10px;
+    margin-left:10px;
+    margin-right:10px;
+    margin-bottom:10px;
+    width:200px;
+}
+
+/* andere shit */
+
+.smalltext {
+    font-size: 0.7em;
+}
+
+a {
+    color: skyblue;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+/* navigatiebalk */
+
+nav ul {
+    list-style-type: none;
+    margin:auto;
+    padding: 0;
+    background-color:rgb(163, 199, 216);
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color:black;
+    text-align:center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color:rgb(161, 211, 230);
+}
+
+nav li a.active {
+    background-color:rgb(59, 140, 172);
+}
+
+
+
+
