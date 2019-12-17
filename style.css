@@ -24,6 +24,7 @@ header {
     text-align: center;
     font-weight:bold;
     font-size:20px;
+    text-shadow: 5px 5px rgb(161, 211, 230);
 }
 
 
@@ -44,6 +45,10 @@ h2{
 }
 
 /* afbeeldingen */
+
+img{
+    border-radius: 5px;
+}
 
 .linker-afbeeldingen{
     float:left;
@@ -93,6 +98,7 @@ a {
 
 a:hover {
     text-decoration: underline;
+    text-shadow: 2px 2px 5px rgb(1, 43, 44);
 }
 
 
