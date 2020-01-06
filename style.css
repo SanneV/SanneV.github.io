@@ -1,4 +1,6 @@
 
+/* body */
+
 html, body {
     height: 100%;
     padding: 0;
@@ -8,15 +10,17 @@ html, body {
     font-size: 15px;
 }
 
-p a{
-    color:rgb(59, 140, 172);
-    text-decoration:underline;
-}
-
 main {
     margin: 0 auto;
     width: 700px;
     position: relative;
+}
+
+/* tekst */
+
+p a{
+    color:rgb(59, 140, 172);
+    text-decoration:underline;
 }
 
 header {
@@ -27,15 +31,10 @@ header {
     text-shadow: 5px 5px rgb(161, 211, 230);
 }
 
-
 footer {
     clear:both;
     text-align: center;
     padding-bottom: 10px;
-}
-
-hr{
-    color:rgb(59, 140, 172);
 }
 
 h2{
@@ -44,14 +43,41 @@ h2{
 
 }
 
+a:hover {
+    text-decoration: underline;
+    text-decoration-color:rgb(1, 43, 44);
+    text-shadow: 2px 2px 5px rgb(1, 43, 44);
+}
+
+.smalltext {
+    font-size: 0.7em;
+}
+
+.blokje-tekst{
+    background-color:rgb(161, 211, 230);
+    overflow:hidden;
+    border: 2px solid rgb(1, 43, 44);
+    padding-left:10px;
+    margin-top:10px;
+    margin-right:20px;
+    box-shadow: 4px 4px 5px rgb(150,150,150);
+    border-radius: 5px;
+}
+
 /* afbeeldingen */
 
 img{
     border-radius: 5px;
+     box-shadow: 2px 2px 5px rgb(150,150,150);
 }
 
 .linker-afbeeldingen{
     float:left;
+    width:225px;
+}
+
+.rechter-afbeeldingen{
+    float:right;
     width:225px;
 }
 
@@ -60,7 +86,6 @@ img.boven {
     margin-left:10px;
     margin-right:10px;
     width:200px;
-
 }
 
 img.onder{
@@ -69,38 +94,7 @@ img.onder{
     margin-left:10px;
     margin-right:10px;
     width:200px;
-
 }
-
-.rechter-afbeeldingen{
-    float:right;
-    width:225px;
-}
-
-img.duiken{
-    margin-top:10px;
-    margin-left:10px;
-    margin-right:10px;
-    margin-bottom:10px;
-    width:200px;
-}
-
-/* andere shit */
-
-.smalltext {
-    font-size: 0.7em;
-}
-
-a {
-    color: skyblue;
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
-    text-shadow: 2px 2px 5px rgb(1, 43, 44);
-}
-
 
 /* navigatiebalk */
 
@@ -110,6 +104,7 @@ nav ul {
     padding: 0;
     background-color:rgb(163, 199, 216);
     overflow: hidden;
+    box-shadow: 2px 2px 5px rgb(150,150,150);
 }
 
 nav ul li {
@@ -118,10 +113,11 @@ nav ul li {
 
 nav li a {
     display: block;
-    color:black;
+    color:rgb(1, 43, 44);
     text-align:center;
     padding: 14px 16px;
     text-decoration: none;
+    text-decoration-style: wavy;
 }
 
 nav li a:hover {
@@ -132,6 +128,32 @@ nav li a.active {
     background-color:rgb(59, 140, 172);
 }
 
+/* tabel */
 
+table {
+  table-layout: auto;
+  width: 100%; 
+  border-collapse: collapse;
+  border: 1px solid rgb(1, 43, 44); 
+  box-shadow: 2px 2px 5px rgb(150,150,150);
+}
 
+th,td {
+  border: 1px solid rgb(1, 43, 44);
+  padding:7px;
+}
+
+th{
+    background-color: rgb(59, 140, 172);
+}
+
+td{
+    background-color:rgb(161, 211, 230);
+}
+
+/* overig */
+
+hr{
+    color:rgb(59, 140, 172);
+}
 
