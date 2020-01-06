@@ -1,8 +1,7 @@
 
 /* body */
 
-html, body {
-    height: 100%;
+html, body{
     padding: 0;
     background-color:rgb(204, 232, 238);  
     color:rgb(1, 43, 44);
@@ -24,11 +23,11 @@ p a{
 }
 
 header {
-    color:rgb(59, 140, 172);
+    color:rgb(161, 211, 230);
     text-align: center;
     font-weight:bold;
     font-size:20px;
-    text-shadow: 5px 5px rgb(161, 211, 230);
+    text-shadow: 4px 4px rgb(1, 43, 44);
 }
 
 footer {
@@ -68,7 +67,7 @@ a:hover {
 
 img{
     border-radius: 5px;
-     box-shadow: 2px 2px 5px rgb(150,150,150);
+    box-shadow: 2px 2px 5px rgb(150,150,150);
 }
 
 .linker-afbeeldingen{
@@ -96,6 +95,17 @@ img.onder{
     width:200px;
 }
 
+.achtergrond{
+    background-image: url("afbeeldingen/achtergrond.jpg");
+    background-color: rgb(204, 232, 238);
+    height:80px;
+    width:100%;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px 5px 0px 0px;
+}
+
 /* navigatiebalk */
 
 nav ul {
@@ -104,7 +114,7 @@ nav ul {
     padding: 0;
     background-color:rgb(163, 199, 216);
     overflow: hidden;
-    box-shadow: 2px 2px 5px rgb(150,150,150);
+    border-radius: 0px 0px 5px 5px;
 }
 
 nav ul li {
